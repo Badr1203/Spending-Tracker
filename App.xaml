@@ -4,6 +4,16 @@
              xmlns:local="clr-namespace:Spending_Tracker"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="Silver"/>
+                <Setter Property="Margin" Value="5"/>
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Style.Resources>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
